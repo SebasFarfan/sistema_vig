@@ -1,0 +1,47 @@
+# === Configuración específica de Streamlit ===
+# Ignora obligatoriamente tus credenciales y claves de la API locales
+.streamlit/secrets.toml
+config.yaml
+
+# Ignora archivos temporales cargados en la app o reportes estáticos
+.streamlit/static/
+streamlit-storage/
+work-tmp/
+
+# === Entornos Virtuales de Python ===
+# Evita subir los paquetes instalados (ocupan mucho espacio)
+venv/
+.venv/
+env/
+.env
+ENV/
+
+# === Caché de Python y Compilación ===
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+build/
+dist/
+*.egg-info/
+
+# === Datos y Almacenamiento (Opcional pero recomendado) ===
+# Evita subir datasets pesados o bases de datos locales
+*.csv
+*.xlsx
+*.sqlite3
+*.db
+data/
+
+# === Sistemas Operativos e IDEs ===
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# loggins
+*.log
