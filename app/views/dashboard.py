@@ -56,12 +56,12 @@ with tab_vig:
 with tab_venc:
     ORDEN = [
         "Vencida", "Vence en 30 días", "Vence en 60 días",
-        "Vence en 90 días", "Vigente (+90 días)", "Sin dato",
+        "Vence en 90 días", "Vigente (+90 días)", "Inhabilitados",
     ]
 
     def clasificar(dias):
         if pd.isna(dias):
-            return "Sin dato"
+            return "Inhabilitados"
         if dias < 0:
             return "Vencida"
         if dias <= 30:
@@ -140,11 +140,12 @@ with tab_cob:
     graf_asig = asig.melt(
         id_vars="empresa",
         value_vars=["vigiladores_asignados", "sin_asignar"],
+        # value_vars=['vigiladores_asignados'],
         var_name="situacion",
         value_name="cantidad",
     )
     graf_asig["situacion"] = graf_asig["situacion"].replace(
-        {"vigiladores_asignados": "Asignados a objetivos", "sin_asignar": "Sin asignar"}
+        {"vigiladores_asignados": "Asignados a objetivos", "sin_asignar": "Sin asignar", "inhabilitados": "Inhabilitados"}
     )
 
     fig_asig = px.bar(
