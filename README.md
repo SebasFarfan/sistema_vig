@@ -16,13 +16,13 @@
   nombre: [nombre de la base de datos]
 
   ---
-  Después de definir la base de datos:
+-  Después de definir la base de datos:
 
   se ejecuta el archivo main.py que tiene el pipeline del ETL
 
   ---
 
-  Antes de iniciar la aplicación:
+- Antes de iniciar la aplicación:
 
   Se debe crear la base de datos en Mysql.
 
