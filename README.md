@@ -22,4 +22,16 @@
 
   ---
 
-  
+  Antes de iniciar la aplicación:
+
+  Se debe crear la base de datos en Mysql.
+
+  Luego ejecutar el archivo 'crear_usuario.py' que se encuentra en la carpeta 'app', ingresar un nombre de usuario y password.
+
+  Una vez creado un usario administrador en la base de datos.
+
+  Ejecutar el archivo 'app.py' que está en la carpeta 'app' con el comando 'streamlit run app.py'.
+
+  Ingresar las credenciales de administrador para ingresar al sistema.
+
+
