@@ -27,8 +27,8 @@ dist/
 
 # === Datos y Almacenamiento (Opcional pero recomendado) ===
 # Evita subir datasets pesados o bases de datos locales
-*.csv
-*.xlsx
+# *.csv
+# *.xlsx
 *.sqlite3
 *.db
 # data/
