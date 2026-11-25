@@ -7,13 +7,13 @@
 Activar el entorno virtual
 
 
-|Sistema operativo / Terminal|	Comando de activación
+|Sistema operativo / Terminal|	Comando de activación                     |
 |----------------------------|--------------------------------------------|
-|Windows                     |  (CMD)	.venv\Scripts\activate.bat          |
-|Windows                     |  (PowerShell)	.venv\Scripts\Activate.ps1  |
-|Windows                     |  (Git Bash)	source .venv/Scripts/activate |
-|macOS / Linux	             |  source .venv/bin/activate                 |
-|-------------------------------------------------------------------------|
+|Windows (CMD)               |  	.venv\Scripts\activate.bat              |
+|Windows (PowerShell)        |   	.venv\Scripts\Activate.ps1              |
+|Windows (Git Bash)          |   	source .venv/Scripts/activate           |
+|macOS / Linux	             |    source .venv/bin/activate               |
+
 
 Luego instalar las librerias en base a al archivo requirements.txt
 
