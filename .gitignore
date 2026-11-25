@@ -31,7 +31,7 @@ dist/
 *.xlsx
 *.sqlite3
 *.db
-data/
+# data/
 
 # === Sistemas Operativos e IDEs ===
 .DS_Store
