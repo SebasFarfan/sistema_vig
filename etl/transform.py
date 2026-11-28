@@ -26,7 +26,7 @@ def convertir_fecha(df, columna):
     # definimos formatos identificados
     formatos = ['%d-%m-%y', '%m-%d-%y', '%d-%b-%y', '%d/%m/%Y',  '%d-%b.-%y']
 
-    df[columna+'_norm'] = pd.NaT
+    df[columna+'_norm'] = pd.NaT 
     
     
     for fmt in formatos:
